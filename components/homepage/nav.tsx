@@ -32,7 +32,7 @@ export default function Nav() {
           </a>
         </nav>
         <Button size="lg" asChild>
-          <Link href="/signup">Get started</Link>
+          <Link href="https://app.drive-to-own.com/signup" target="_blank">Get started</Link>
         </Button>
       </div>
     </header>

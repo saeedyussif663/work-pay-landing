@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Button size="lg" asChild>
-              <Link href="/signup">Get started</Link>
+              <Link href="https://app.drive-to-own.com/signup" target="_blank">Get started</Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="#preview">See a vehicle card ↓</a>

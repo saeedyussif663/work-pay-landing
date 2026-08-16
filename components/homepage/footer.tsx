@@ -45,13 +45,15 @@ export default function Footer() {
                 Account
               </h4>
               <Link
-                href="/signin"
+                href="https://app.drive-to-own.com/signin"
+                target="_blank"
                 className="mb-2.5 block text-sm text-background/80 hover:text-background"
               >
                 Log in
               </Link>
               <Link
-                href="/signup"
+                href="https://app.drive-to-own.com/signup"
+                target="_blank"
                 className="mb-2.5 block text-sm text-background/80 hover:text-background"
               >
                 Get started
