@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   title: 'Work & Pay Tracker — Every Payment, Logged. Permanent.',
   description:
     'Work & Pay Tracker helps vehicle owners track weekly installment payments from riders — every payment logged, timestamped, and permanent. No more disputes over who paid what.',
+  keywords: ['Drive-to-own', 'Work&Pay', 'payment tracking'],
   openGraph: {
     title: 'Work & Pay Tracker',
     description:
