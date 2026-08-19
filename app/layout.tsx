@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NODE_ENV === 'production'
+      ? 'https://drive-to-own.com'
+      : 'http://localhost:3000',
+  ),
   title: 'Work & Pay Tracker — Every Payment, Logged. Permanent.',
   description:
     'Work & Pay Tracker helps vehicle owners track weekly installment payments from riders — every payment logged, timestamped, and permanent. No more disputes over who paid what.',
